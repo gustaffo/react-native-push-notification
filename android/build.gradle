@@ -26,6 +26,7 @@ def safeExtGet(prop, fallback) {
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 28)
     buildToolsVersion safeExtGet('buildToolsVersion', '28.0.3')
+    namespace 'com.dieam.reactnativepushnotification'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
